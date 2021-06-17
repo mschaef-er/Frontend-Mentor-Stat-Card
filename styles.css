@@ -1,0 +1,79 @@
+/* font-family: 'Inter', sans-serif; - 400/700
+font-family: 'Lexend Deca', sans-serif; - 400 */
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+}
+
+.text {
+  position: absolute;
+  display: inline-block;
+  background-color: hsl(244, 38%, 16%);
+  width: 32%;
+  margin: 100px 0 100px 150px;
+  padding: 0 35px;
+  height: 400px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 700;
+  width: 95%;
+  padding-bottom: 25px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.main {
+  padding-bottom: 50px;
+}
+
+.img {
+  position: relative;
+  display: inline-block;
+  background-color: hsl(277, 64%, 61%);
+  width: auto;
+  float: right;
+  margin: 100px 150px 100px 0;
+}
+
+img {
+  position: relative;
+  display: inline-block;
+  float: right;
+  filter: opacity(50%);
+  height: 400px;
+}
+
+.stats {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.stat-headings {
+  display: inline-block;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  margin-right: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  clear: both;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
